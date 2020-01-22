@@ -2,3 +2,5 @@
 
 *.local
 *.local.json
+/.idea/
+/stale_outputs_checked
