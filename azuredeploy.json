@@ -370,9 +370,9 @@
 			"platform": "AzureStack",
 			"provider": "9d2c71fc-96ba-4b4a-93b3-14def5bc96fc"
 		},
-		"cnsVmSize": "Standard_DS12_v2",
-		"glusterDiskSize": 128,
-		"cnsInstanceCount": 3,
+		"cnsVmSize": "Standard_DS1_v2",
+		"glusterDiskSize": 64,
+		"cnsInstanceCount": 1,
 		"singlequote": "'",
 		"sshKeyPath": "[concat('/home/', parameters('adminUsername'), '/.ssh/authorized_keys')]",
 		"nodePrepScriptUrl": "[concat(parameters('_artifactsLocation'), '/scripts/nodePrep.sh')]",
