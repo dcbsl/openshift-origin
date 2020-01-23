@@ -983,7 +983,7 @@
 			"apiVersion": "[variables('apiVersionCompute')]",
 			"properties": {
 				"platformFaultDomainCount": "[variables(variables('platformFaultDomainCount'))]",
-                "platformUpdateDomainCount": "5"
+                "platformUpdateDomainCount": "1"
 			},
 			"tags": {
 				"displayName": "[variables('availabilitySetArray')[copyIndex()].tagName]",
@@ -1004,7 +1004,7 @@
 			"apiVersion": "[variables('apiVersionCompute')]",
 			"properties": {
 				"platformFaultDomainCount": "[variables(variables('platformFaultDomainCount'))]",
-                "platformUpdateDomainCount": "5"
+                "platformUpdateDomainCount": "1"
 			},
 			"tags": {
 				"displayName": "CsnAvailabilitySet",
