@@ -283,8 +283,8 @@
 		"unmanagedAvailabilitySetSku": "Classic",
 		"managedAvailabilitySetSku": "Aligned",
 		"availabilitySetSku": "[concat(parameters('storageKind'), 'AvailabilitySetSku')]",
-		"unmanagedPlatformFaultDomainCount": 3,
-		"managedPlatformFaultDomainCount": 2,
+		"unmanagedPlatformFaultDomainCount": 1,
+		"managedPlatformFaultDomainCount": 1,
 		"platformFaultDomainCount": "[concat(parameters('storageKind'), 'PlatformFaultDomainCount')]",
 		"storageSkuObject": {
 			"master": {
